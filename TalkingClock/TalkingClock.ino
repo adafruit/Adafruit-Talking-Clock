@@ -91,6 +91,12 @@ void setup() {
   pinMode( 8, OUTPUT); digitalWrite( 8, LOW);
   pinMode(A1, OUTPUT); digitalWrite(A1, LOW);
 
+  // Along similar lines -- if using the DS1307 breakout board, it can
+  // be plugged into A2-A5 (SQW pin overhangs the header, isn't used)
+  // and 5V/GND can be provided through the first two pins.
+  pinMode(A2, OUTPUT); digitalWrite(A2, LOW);
+  pinMode(A3, OUTPUT); digitalWrite(A3, HIGH);
+
   Serial.begin(9600); // For error messages / debugging
   Wire.begin();       // Init I2C
   rtc.begin();        // Init real-time clock
