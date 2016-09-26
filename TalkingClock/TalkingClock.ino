@@ -61,12 +61,12 @@ const char PROGMEM
   m1[] = "m1", m2[] = "m2", m3[] = "m3",
   m4[] = "m4", m5[] = "m5", m6[] = "m6",
   m7[] = "m7", m8[] = "m8", m9[] = "m9",
-  *hours[]  = { h12, h01, h02, h03, h04, h05, h06, h07, h08, h09, h10, h11 },
-  *mTens[]  = { m00, m10, m20, m30, m40, m50 },
-  *mTeens[] = { m11, m12, m13, m14, m15, m16, m17, m18, m19 },
-  *mTenX[]  = { m0x, NULL, m2x, m3x, m4x, m5x },
-  *mins[]   = { m1, m2, m3, m4, m5, m6, m7, m8, m9 },
-  *ampm[]   = { am, pm };
+  * const hours[]  = { h12, h01, h02, h03, h04, h05, h06, h07, h08, h09, h10, h11 },
+  * const mTens[]  = { m00, m10, m20, m30, m40, m50 },
+  * const mTeens[] = { m11, m12, m13, m14, m15, m16, m17, m18, m19 },
+  * const mTenX[]  = { m0x, NULL, m2x, m3x, m4x, m5x },
+  * const mins[]   = { m1, m2, m3, m4, m5, m6, m7, m8, m9 },
+  * const ampm[]   = { am, pm };
 
 // INITIALIZATION ------------------------------------------------------------
 
